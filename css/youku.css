@@ -1,7 +1,7 @@
-body,
+*,
 ul,
 h2 {
-	margin:0;   
+	margin:0;
 	padding:0;
 }
 body {
@@ -167,13 +167,6 @@ a {
 .imo-a {
 	height: 280px;
 }
-.dra-a {
-	position: relative;
-}
-.dra-f {
-	height: 112px;
-	float: left;
-}
 .imo-b {
 	display: inline-block;
 }
@@ -182,7 +175,6 @@ a {
 	line-height: 14px;
 	padding-top: 10px;
 }
-.f-e li a,
 .imo-b li a {	
 	color: #555;
 }
@@ -190,27 +182,29 @@ a {
 	color: #999;
 	font-size: 12px;
 }
-.dra-a {
-	width: 200px;
-	float: left;
-	margin-right: 20px;
+
+.dra li {
+    float: left;
+    padding-bottom: 10px;
+    padding-left: 15px;
 }
-.f-e {
-	display:inline-block;
-	width: 200px;
-	padding-bottom: 12px;
+.dra  li  img {
+    width: 200px;
+    height: 110px;
 }
-.f-e li {
-	line-height: 12px;
-	padding-top: 10px;
+.dra  li  dl  dt {
+    font-size: 14px;
+    line-height: 30px;
+    color: #555;
 }
-.f-e li span {	
-	color: #999;
+.dra  li  dl  dt:hover {
+	color:#ff3c00;
 }
-.dra-b {
-	width: 200px;
-	float: left;
+.dra  li  dl  dd {
+    font-size: 10px;
+    color: #999;
 }
+
 .central-dramab {	
 	width: 1300px;
 	position: relative; 
@@ -273,3 +267,12 @@ a {
 	background:#777;
 	line-height:100px;
 }
+
+
+
+
+
+
+
+
+
