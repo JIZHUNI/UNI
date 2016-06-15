@@ -1,4 +1,15 @@
-window.onload = function(){
+/*function addEventLoad(target, type, func){
+	if(target.addEventListener)
+	target.addEventListener(type, func, false);
+	else if(target.attachEvent)
+	target.attachEvent("on" + type, func);
+	else target["on" + type] = func;
+	}
+	addEventLoad(this, "load", model_2);
+	addEventLoad(this, "load", model_1);
+
+*/
+windon.onload = function (){
 	function $(id){
 	return document.getElementById(id);
 	}
