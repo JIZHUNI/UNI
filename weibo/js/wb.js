@@ -37,7 +37,8 @@ function move(obj, json, fnName) {
         for (var attr in json) {        
             var oGetStyle = 0;
             if (attr == 'opacity') {  
-                oGetStyle = Math.round(parseFloat(getStyle(obj, attr)) * 100);      
+                oGetStyle = Math.round(parseFloat(getStyle(obj, attr)) * 100); 
+            }
             else {
                 oGetStyle = parseInt(getStyle(obj, attr));
             }
