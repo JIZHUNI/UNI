@@ -1,0 +1,65 @@
+* {
+	padding:0;
+	margin:0;
+}
+.talkBox {
+	padding-top: 100px;	
+	width: 820px;
+	margin: 0 auto;
+}
+.talkBox h2 {
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+.talkBox h2 span {
+	font-family: "华康娃娃体W5";
+	color: green;	
+	font-size: 24px;
+}
+.talkBox h2 a {
+	color: green;
+	text-decoration: none;
+	float: right;
+	font-size: 24px;
+
+}
+.talkBox h2 a:hover {
+	text-decoration:underline;
+	color: red; 
+}
+textarea {
+	width: 808px;
+	height: 120px;
+	resize: none;
+	padding:5px;
+}
+.btn {
+	height: 50px;
+	width: 140px;
+	background-color: #FF3333;
+	border:0;
+	float: right;
+	cursor: pointer;
+	margin-bottom: 10px;
+	color: white;
+	font-size: 24px;
+    border-radius:5px;            /* W3C syntax */
+	-moz-border-radius: 5px;      /* Gecko browsers */
+    -webkit-border-radius: 5px;   /* Webkit browsers */
+}
+
+.ul1 {
+    width: 818px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.ul1 li {
+    list-style: none;
+    padding: 4px;
+    border-bottom: 1px #999 dashed;
+    overflow: hidden;
+    opacity: 0;
+}
